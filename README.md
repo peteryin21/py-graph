@@ -1,4 +1,4 @@
-# Python Graph Library + PageRank 
+# Python Graph Library
 
 A simple graph library that provides essential graph creation, manipulation and analysis tools, including the PageRank algorithm.
 
