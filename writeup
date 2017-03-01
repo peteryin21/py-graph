@@ -1,0 +1,15 @@
+Hi Irving, 
+
+Here is the code uploaded onto Github along with a README.
+
+I decided to create a python graph library for this project. The graph is implemented using a dictionary mapping vertices (any hashable data) to another dictionary contain connected vertices mapped to an empty dictionary. In the next iteration, I would use this empty dictionary to store attributes of particular edges and enable more complex graph algorithms.
+
+PageRank is implemented with an iterative approach (default 10 iterations). This was the quickest way to get up and running. For a more scalabe, long-term implementation, I would use the matrix-based Power Method for calculation, and have an error threshold to determine number of iterations.
+
+I decided to keep pagerank function separate from graph library to allow for more flexibility. In future, algorithms such as shortest path, connectedness, and clustering can be added to an algorithms directory, and this library and be turned into a comprehensive package for building and analyzing complex graphs.
+
+HumanDX can use PageRank to help find the best posts to show people who are searching for help on a particular disease or symptom. Assuming doctors post advice + reports in response to certain inquries, and patients produce content on the platform with information about their situation and which posts helped them in their journey, then we can build a graph from this network and help rank the most influential and helpful posts using PageRank.
+
+Let me know what you think!
+
+Peter
